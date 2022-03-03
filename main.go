@@ -18,8 +18,9 @@ func main() {
 	fmt.Println(Calc(arr, 0, 0)) // 0
 	fmt.Println(Calc(arr, 0, 6)) // 18
 
-	fmt.Println(Sqrt(4)) // 2
-	fmt.Println(Sqrt(9)) // 3
+	fmt.Println(Sqrt(4))  // 2 <nil>
+	fmt.Println(Sqrt(9))  // 3 <nil>
+	fmt.Println(Sqrt(-2)) // 0 cannot Sqrt negative number: -2
 
 	fmt.Println(Pic(3, 3)) // [[0 0 1] [0 1 1] [1 1 2]]
 	WaitChannels()
